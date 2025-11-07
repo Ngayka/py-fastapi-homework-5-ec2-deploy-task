@@ -1,4 +1,4 @@
-FROM golang:1.22.3-alpine
+FROM golang:1.24.0-alpine
 
 # Install necessary dependencies
 RUN apk add --no-cache wget dos2unix
